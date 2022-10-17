@@ -42,3 +42,15 @@ array_created = handle_input()
 system "clear"
 p array_created
 handle_sub_array(array_created)
+
+# A có vài góp ý
+# 1. Hình như output của e chưa đúng ah
+# [7, 2, 5, 2, 9]
+# Incresed array no1: [7]
+# Incresed array no2: [7]
+# Incresed array no3: [2, 5]
+# Incresed array no4: [2, 9]
+# Đáng lý là 7, 2 5, 2 9 mới đúng ah e 
+# 2. array_created -> mình chỉ nên khai báo là arrays thôi, kg cần _created đâu e
+# 3. 99 nên là hằng số
+# 4. Dòng 12 kg cần return
