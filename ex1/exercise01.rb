@@ -90,3 +90,7 @@ end
 system "clear"
 handle_input()
 execute_requirements()
+
+# A có vài góp ý nhỏ nhé
+# 1. $natural_integer -> mình kg cần dùng dấu $ trong ruby
+# 2. def search_minimun(array) -> ở đây a thấy array nên là số nhiều ah
