@@ -45,3 +45,8 @@ rescue PG::Error => e
 ensure
     con.close if con
 end
+
+# A có vài góp ý
+# 1. 500k e có thể viết thành 500_000 cho dễ đọc 
+# 2. Hàm connect db e có thể viết trong 1 hàm hoặc 1 file khác, và file chính của mình chỉ gọi để thực thi
+# 3. Khi e chạy có thể drop table if exists trước, rồi create table để đảm bảo lần đầu hay lần n code của e đều chạy được kg cần comment
