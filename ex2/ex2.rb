@@ -66,3 +66,8 @@ end
 
 finish = Time.now
 puts "Write time #{finish-start}"
+# A có vài góp ý nhỏ:
+# 1. Hàm kết nối Postgres e nên viết ra 1 file or 1 hàm khác để dễ quản lý
+# 2. A đang thấy e đọc từng dòng và insert từng dòng vào db -> đóng mở kết nối nhiều lần, sẽ take time
+# 3. Dòng 64: break, theo lý thuyết là đâu cần break chổ này đâu e nhỉ?
+# 4. Em đã khai báo filename ở trên rồ
